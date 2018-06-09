@@ -1,3 +1,12 @@
+/*-----------NavBar Code: ----------------*/
+
+
+
+
+
+
+
+/*----------- Code dedicated to duplicating the look and body of the example page WITH Bootstrap: ----------------*/
 #me {
     height: 200px;
     width: 200px;
@@ -5,14 +14,15 @@
 }
 
 
-
-
-/*----------- Next is code dedicated to duplicating the look and body of the example page: ----------------*/
-
-
 h1, h2, h3, h4, h5, h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
+    font-weight: 1000;
+    
+}
+
+#reformat {
+    margin-left: 25px;
 }
 
 hr {
@@ -25,6 +35,7 @@ hr {
     margin-right: auto;
     border-style: solid;
     border-width: 1.75px;
+    
 }
 
 body {
@@ -40,7 +51,8 @@ p {
 }
 
 .maxwidth {
-    max-width: 919px;
+    max-width: 960px;
+    padding: 0px 0px 0px 0px;
     
 }
 
@@ -51,7 +63,7 @@ p {
     border-color: #dddddd;
     width: 100%;
     height: 100%;
-    z-index: -100;
+   
    
 }
 
@@ -64,14 +76,13 @@ div {
     width: 100%;
     position: absolute;
     left: 0;
-    margin-top: -200px;
-    top: 50%;
+    top: 30%;
     
 }
 div.content {
     border: 1px solid;
     border-color: lightgrey;
-    padding: 15px 40px 15px 40px;
+    padding: 15px 30px 15px 30px;
     position: relative; 
     background-color: #ffffff !important;
     margin: 0 auto;
@@ -165,26 +176,13 @@ textarea {
 }
 
 
-
-
-
-
-
-
-/*    
-
-306.33 = 1/3 of content window     
-Subtract 200px each
-
-*/
-
 /* Lastly the portfolio page with thumbnails and titles */
 
 
 
 
 .portfolioimg {
-    padding: 30px 40px 30px 0px;
+    padding: 20px 0px 20px 10px;
     float: left;
     position: relative;
     margin-left: 0px;
@@ -192,27 +190,22 @@ Subtract 200px each
   
 }
 
-.portfoliotext {
-    color: white;
-    font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    font-style: normal;
-}
 
 .banner {
-    -webkit-transform: rotate(0deg); /*these are cool - I will continue research!*/
-       -moz-transform: rotate(0deg); 
-        -ms-transform: rotate(0deg); 
-         -o-transform: rotate(0deg); 
-            transform: rotate(0deg); 
     background-color: #4aaaa5;
     position: absolute;
-    bottom: 50px;
-    padding: 0 10px;
-
+    bottom: 30px;
+    padding: 10px 15px;
+    font-size: 24px;
+    font-weight: 250;
+    width: 100%;
+    max-width: 275px;
     overflow: hidden;
-   z-index: 10;
+    z-index: 10;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
 }
 
 
