@@ -1,7 +1,52 @@
+
 /*-----------NavBar Code: ----------------*/
 
 
+.myheader {
+    background-color: #4aaaa5;
+    padding: 15px 10px 15px 10px !important;
+    position: relative;
+    font-size: 40px;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+        
+}
 
+
+                                                     /* HOLY CRAP BOOTSTRAP DID NOT WANT TO GIVE UP ITS DEFAULT SETTINGS */
+.navbar-default {
+    color: white !important;
+    top: -1px;
+    
+   
+}
+
+.navbar-brand {
+    color: white !important;
+    
+}
+
+li {
+   padding: 15px 10px 15px 10px;
+   
+}
+
+
+#dividers {
+    border-style: solid;
+    border: auto;
+    border-color: lightgrey;
+    border-top: 0px;
+    border-bottom: 0px;
+
+}
+
+.paddown {
+    padding: 1% 20px 1% 20px !important;
+   position: relative;
+    top: 10px;
+}
 
 
 
@@ -14,6 +59,9 @@
 }
 
 
+
+
+
 h1, h2, h3, h4, h5, h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
@@ -21,9 +69,7 @@ h1, h2, h3, h4, h5, h6 {
     
 }
 
-#reformat {
-    margin-left: 25px;
-}
+
 
 hr {
     background-color: #cccccc;
@@ -76,7 +122,8 @@ div {
     width: 100%;
     position: absolute;
     left: 0;
-    top: 30%;
+    
+    
     
 }
 div.content {
